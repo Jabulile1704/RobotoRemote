@@ -1,5 +1,4 @@
 Arduino LED Remote — C# Windows Forms Controller
-A Windows Forms desktop application that connects to an Arduino Uno over USB serial communication, providing a real-time remote control interface to individually toggle four LEDs (Red, Yellow, Green, Blue) connected to a breadboard.
 
 Overview
 This project bridges a C# desktop GUI with an Arduino microcontroller using serial communication. The Windows Form acts as the remote — each button press sends a command string over the COM port, which the Arduino parses and uses to drive the corresponding LED pin HIGH or LOW.
